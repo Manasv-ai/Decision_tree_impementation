@@ -1,4 +1,5 @@
 🩺 Diabetes Dataset – Machine Learning Project
+
 📌 Overview
 
 This project focuses on predicting diabetes progression using the Diabetes dataset from scikit-learn.
@@ -18,6 +19,7 @@ scikit-learn (ML models & evaluation)
 
 Jupyter Notebook
 
+
 🚀 Project Workflow
 
 Data Loading & Preprocessing
@@ -35,6 +37,7 @@ Correlation heatmap to study relationships between features.
 
 Distribution plots for key variables.
 
+
 Model Training
 
 Implemented Decision Tree Regressor as baseline.
@@ -43,11 +46,13 @@ Tuned hyperparameters using GridSearchCV.
 
 Compared models with different parameter settings.
 
+
 Model Evaluation
 
 Metrics used: Mean Squared Error (MSE), R² Score.
 
 Observed how depth, splitter strategy, and feature selection affected performance.
+
 
 📊 Results
 
@@ -57,11 +62,17 @@ DecisionTreeRegressor tuned with GridSearchCV improved performance significantly
 
 Key insight: Proper parameter tuning (like max_depth, criterion, splitter) helps balance bias-variance tradeoff.
 
+
 📂 File Structure
+
 📦 Diabetes-ML
+
  ┣ 📜 Diabetes.ipynb     # Jupyter notebook with full implementation
+ 
  ┣ 📜 README.md          # Project documentation
+ 
  ┗ 📜 requirements.txt   # Python dependencies (optional)
+
 
 🔮 Future Improvements
 
